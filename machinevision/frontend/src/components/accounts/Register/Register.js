@@ -54,7 +54,7 @@ const Register = ({ isAuthenticated }) => {
       });
     } else if (password.search (/\d/) == -1) {
       setMessage({
-        passwordHasNoNumber: 'Password must contain at least one number.',
+        passwordHasNoNumber: 'Password must contain at least 1 number.',
       });
     } else if (password !== password2) {
       setMessage({
